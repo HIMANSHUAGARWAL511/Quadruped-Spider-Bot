@@ -5,10 +5,10 @@
 Servo ServoMotor[4][3];
 const int servo_pin[4][3] = { {2, 3, 4}, {5, 6, 7}, {8, 9, 10}, {11, 12, 13} };
 
-const float length_a = 55;
-const float length_b = 77.5;
-const float length_c = 27.5;
-const float length_side = 71;
+const float length_a = 50;
+const float length_b = 60;
+const float length_c = 25.5;
+const float length_side = 51;
 const float z_absolute = -28;
 
 const float z_default = -50, z_up = -30, z_boot = z_absolute;
